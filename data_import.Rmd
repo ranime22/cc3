@@ -1,0 +1,40 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{bash}
+wget -i url_data
+```
+```{r}
+library(dada2)
+library(phyloseq)
+library(DECIPHER)
+library(phangorn)
+library(ggplot2)
+library(gridExtra)
+library(shiny)
+library(miniUI)
+#library(caret)
+library(pls)
+library(e1071)
+library(ggplot2)
+library(randomForest)
+library(dplyr)
+library(ggrepel)
+#library(nlme)
+library(devtools)
+library(reshape2)
+library(PMA)
+#library(structSSI)
+library(ade4)
+library(ggnetwork)
+library(intergraph)
+library(scales)
+library(phyloseqGraphTest)
+library(genefilter)
+library(impute)
+```
+
